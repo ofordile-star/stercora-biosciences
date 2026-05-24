@@ -970,10 +970,10 @@ footer {
               </div>
               <div class="chip">
                 <div class="chip-stat">IRR 0.946</div>
-                <div class="chip-text">ARI incidence per log-unit increase in <em>P. stercorea</em> abundance; unchanged after richness adjustment (IRR 0.942, p = 0.002)</div>
+                <div class="chip-text">ARI incidence per log-unit increase in <em>P. stercorea</em> abundance; unchanged after richness adjustment (IRR 0.942, p = 0.002, q = 0.009 after BH correction)</div>
               </div>
               <div class="chip">
-                <div class="chip-stat">Sobel p &gt;0.36</div>
+                <div class="chip-stat">Sobel p = 0.588</div>
                 <div class="chip-text">Richness not on the causal pathway; supports direct species-specific immune effect</div>
               </div>
               <div class="chip amber">
@@ -1011,12 +1011,13 @@ footer {
       </div>
       <div class="pathway-cell">
         <div class="pathway-cell-num">02</div>
-        <div class="pathway-cell-title">Nutritional Gating</div>
+        <div class="pathway-cell-title">Immune Modulation</div>
         <div class="pathway-cell-text">
-          Protection is amplified in nutritionally and immunologically vulnerable hosts.
-          In low-WAZ children: CRP suppression predominates.
-          In high-WAZ children: AGP elevation dominates.
-          Interaction p-values are significant across strata.
+          <em>P. stercorea</em> modulates host inflammatory tone in a context-dependent manner,
+          supported by biomarker evidence across WAZ strata. In low-immune-reserve hosts: CRP suppression,
+          consistent with tonic innate priming. In higher-reserve hosts: AGP elevation, consistent with
+          active immune engagement. All four inflammation × WAZ interactions survive FDR correction
+          (q ≤ 0.018) — not seen for <em>P. copri</em>, confirming species specificity.
         </div>
       </div>
       <div class="pathway-cell">
@@ -1025,7 +1026,9 @@ footer {
         <div class="pathway-cell-text">
           The western adult microbiome shares the low-richness, low-redundancy
           architecture of the 1–2 year paediatric gut in which <em>P. stercorea</em>
-          protection was strongest. The same mechanism, structurally equivalent host.
+          protection was strongest. The formal test of restriction to low-immune-reserve
+          hosts was not significant (interaction q = 0.112) — consistent with broader
+          protection amplified by host context, not confined to it.
         </div>
       </div>
     </div>
